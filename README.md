@@ -22,8 +22,8 @@
 ---
 
 ## 📸 ภาพตัวอย่างในเกม (Screenshots)
-<img width="1279" height="719" alt="image" src="https://github.com/user-attachments/assets/cf0f16af-9d79-4d57-9d33-7b22c50fefa7" />
-<img width="1273" height="718" alt="image" src="https://github.com/user-attachments/assets/38831319-e5a1-40d1-9e7c-4ebef28a9994" />
+
+<img width="1273" height="718" alt="image" src="https://github.com/user-attachments/assets/52ae7a6f-885a-4573-b69c-11d37fe8cc0d" />
 
 ---
 
@@ -44,7 +44,7 @@
 ## ☕ ช่องทางการสนับสนุน (Support/Donate)
 หากคุณชื่นชอบผลงานแปลนี้ และอยากสนับสนุนยาแก้ปวดหลังให้กับผู้แปล สามารถสนับสนุนได้ตามช่องทางนี้ครับ:
 
-<img width="643" height="634" alt="Screenshot_2026-04-30-17-08-21-436_com miui gallery" src="https://github.com/user-attachments/assets/72442723-fb76-4b96-8825-677b8f4ada1e" />
+<img width="100" height="100" alt="Screenshot_2026-04-30-17-08-21-436_com miui gallery" src="https://github.com/user-attachments/assets/654a21a5-876f-486a-8308-3768d5b01b40" />
 
 หรือเพียงแค่ช่วยกด ⭐️ **Star** ที่มุมขวาบนของโปรเจกต์นี้ ก็เป็นกำลังใจมากแล้วครับ ขอบคุณครับ 🙏
 
