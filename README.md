@@ -2,7 +2,7 @@
   
 # 🇹🇭 Until Then - Thai Translation (ม็อดแปลภาษาไทย)
 
-![Version](https://img.shields.io/badge/Version-1.0.0_(Beta)-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.1.0_(Beta)-blue.svg)
 ![Status](https://img.shields.io/badge/Status-แปลเนื้อเรื่องครบ_100%25-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-PC_(Steam)-lightgrey.svg)
 
