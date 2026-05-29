@@ -23,7 +23,11 @@
 
 ## 📸 ภาพตัวอย่างในเกม (Screenshots)
 
-<img width="1273" height="718" alt="image" src="https://github.com/user-attachments/assets/52ae7a6f-885a-4573-b69c-11d37fe8cc0d" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/5607b10b-808f-46ea-aca3-90633533b1c2" />
+****<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/51895edf-96b0-46f1-a433-fdc72ff638dd" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/0956cae6-e2cc-4a8d-adbb-fea857a59ab3" />
+
+
 
 ---
 
