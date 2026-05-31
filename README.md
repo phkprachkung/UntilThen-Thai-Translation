@@ -2,8 +2,8 @@
   
 # 🇹🇭 Until Then - Thai Translation (ม็อดแปลภาษาไทย)
 
-![Version](https://img.shields.io/badge/Version-1.3.0-blue.svg)
-![Status](https://img.shields.io/badge/Status-เนื้อเรื่อง_100%25_|_UI_100%25_|_ฟอนต์_100%25-brightgreen.svg)
+![Version](https://img.shields.io/badge/Version-1.3.1-blue.svg)
+![Status](https://img.shields.io/badge/Status-เนื้อเรื่อง_97%25_|_UI_90%25_|_ฟอนต์_95%25-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-PC_(Steam)-lightgrey.svg)
 
 โปรเจกต์แปลภาษาไทยอย่างไม่เป็นทางการสำหรับเกม **Until Then** เกมแนว Narrative Adventure ที่เต็มไปด้วยอารมณ์และเรื่องราวที่น่าประทับใจ
