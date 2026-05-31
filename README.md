@@ -8,7 +8,7 @@
 
 โปรเจกต์แปลภาษาไทยอย่างไม่เป็นทางการสำหรับเกม **Until Then** เกมแนว Narrative Adventure ที่เต็มไปด้วยอารมณ์และเรื่องราวที่น่าประทับใจ
 
-[ดาวน์โหลดไฟล์แปลภาษาไทยล่าสุด ที่หน้า Releases](https://github.com/mapayapannawath-crypto/UntilThen-Thai-Translation/releases)
+[ดาวน์โหลดไฟล์แปลภาษาไทยล่าสุด ที่หน้า Releases](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
 
 </div>
 
