@@ -2,13 +2,13 @@
   
 # 🇹🇭 Until Then - Thai Translation (ม็อดแปลภาษาไทย)
 
-![Version](https://img.shields.io/badge/Version-1.3.2-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.4.0-blue.svg)
 ![Status](https://img.shields.io/badge/Status-เนื้อเรื่อง_97%25_|_UI_90%25_|_ฟอนต์_95%25-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-PC_(Steam)-lightgrey.svg)
 
 โปรเจกต์แปลภาษาไทยอย่างไม่เป็นทางการสำหรับเกม **Until Then** เกมแนว Narrative Adventure ที่เต็มไปด้วยอารมณ์และเรื่องราวที่น่าประทับใจ
 
-[👉 ดาวน์โหลดไฟล์แปลภาษาไทยล่าสุด ที่หน้า Releases 👈](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
+[👉 ดาวน์โหลดโปรแกรมติดตั้งม็อดล่าสุด ที่หน้า Releases 👈](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
 
 </div>
 
@@ -42,12 +42,23 @@
 
 ---
 
-## ⚙️ วิธีการแพ็คไฟล์และติดตั้งม็อด
+## ⚙️ วิธีการติดตั้งม็อดภาษาไทย (อัปเดตใหม่ ง่ายขึ้นกว่าเดิม!)
 
-> ### 🎬 ดูคลิปวิดีโอสอนการติดตั้ง (แนะนำ!)
-> **[👉 คลิกเพื่อดูคลิป: เปลี่ยน Until Then เป็นภาษาไทยใน 5 นาที 👈](http://www.youtube.com/watch?v=EvnHO_rholQ)**
-<img width="1672" height="940" alt="MODแปลไทย (5)" src="https://github.com/user-attachments/assets/651142f9-4b73-4095-b097-ad21dc376f43" />
+เพื่อความสะดวกและรวดเร็ว เราได้สร้างโปรแกรมติดตั้งม็อดแบบอัตโนมัติ (Installer) ให้คุณแล้ว!
+<img width="638" height="428" alt="image" src="https://github.com/user-attachments/assets/be643911-63ea-4bf9-a471-fb6638e16e34" />
 
+
+**ขั้นตอนการติดตั้ง:**
+1. ดาวน์โหลดไฟล์ **`UntilThen_ThaiMod_Setup.exe`** จากหน้า [Releases](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
+2. ดับเบิ้ลคลิกเพื่อรันโปรแกรมติดตั้ง และทำตามขั้นตอนบนหน้าจอ
+3. เมื่อเปิดโปรแกรมติดตั้งม็อด โปรแกรมจะค้นหาโฟลเดอร์เกมใน Steam ให้โดยอัตโนมัติ (หรือกดปุ่ม BROWSE เพื่อเลือกหาไฟล์เกมเองในกรณีที่ใช้แพลตฟอร์มอื่น)
+4. กดปุ่ม **INSTALL MOD** และรอสักครู่จนกว่าระบบจะดำเนินการเสร็จสิ้น
+5. เสร็จเรียบร้อย! สามารถเข้าเกมและสนุกกับเนื้อเรื่องภาษาไทยได้ทันทีครับ
+
+*(หากต้องการถอนการติดตั้งม็อดและคืนค่าเป็นเกมดั้งเดิม สามารถเปิดโปรแกรมนี้และกดปุ่ม **UNINSTALL MOD** หรือจะใช้ระบบถอนการติดตั้งโปรแกรมผ่าน Control Panel ใน Windows ตามปกติก็ได้เช่นกันครับ)*
+
+<details>
+<summary><b>คลิกที่นี่ หากต้องการติดตั้งแบบ Manual (วิธีเก่าโดยใช้โปรแกรมแพ็คไฟล์ด้วยตัวเอง)</b></summary>
 
 ในโฟลเดอร์นี้คือไฟล์ Source ของม็อดแปลภาษาไทย ที่คุณสามารถนำไปแพ็คอัปเดตไฟล์ `.pck` ดั้งเดิมของตัวเกมได้เลย
 
@@ -67,6 +78,7 @@
 6. กด **Pack** ระบบจะถามหาที่เซฟ ให้ตั้งชื่อเป็น `UntilThen.pck` แล้วบันทึกทับไฟล์เกมตัวเก่าใน Steam ไปเลย 
 *(⚠️ แนะนำให้สำรองไฟล์ `.pck` ต้นฉบับของเกมเก็บไว้ก่อน)*
 7. คุณสามารถลบโฟลเดอร์ที่แตกออกมาทิ้งไปได้เลย เข้าเกมและสนุกกับเนื้อเรื่องภาษาไทยได้ทันที!
+</details>
 
 ---
 
