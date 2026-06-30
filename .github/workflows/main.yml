@@ -23,7 +23,7 @@ jobs:
                 \"description\": \"✨ **มีอะไรใหม่ในเวอร์ชันนี้?**\\nเข้าไปดูรายละเอียดการอัปเดตและดาวน์โหลดไฟล์ได้ที่ลิงก์ด้านบนเลยครับ!\\n\\n💡 *ขอบคุณที่ติดตามโปรเจกต์ Until Then ภาษาไทย*\",
                 \"color\": 5814783,
                 \"thumbnail\": {
-                  \"url\": \"ใส่ลิงก์รูปโลโก้กรอบขวาบนตรงนี้.png\"
+                  \"url\": \"https://cdn.discordapp.com/attachments/1521578053183209532/1521578548471664983/Gemini_Generated_Image_lslubnlslubnlslu_1.png?ex=6a4557f3&is=6a440673&hm=4aecd69fee9111942cbb76c743f3e2a10976482daed72503557a1c3dd6e9167b\"
                 },
                 \"fields\": [
                   {
@@ -44,7 +44,7 @@ jobs:
                 ],
                 \"footer\": {
                   \"text\": \"Until Then - Thai Mod\",
-                  \"icon_url\": \"ใส่ลิงก์รูปโลโก้กรอบซ้ายล่างตรงนี้.png\"
+                  \"icon_url\": \"https://cdn.discordapp.com/attachments/1521578053183209532/1521578548471664983/Gemini_Generated_Image_lslubnlslubnlslu_1.png?ex=6a4557f3&is=6a440673&hm=4aecd69fee9111942cbb76c743f3e2a10976482daed72503557a1c3dd6e9167b\"
                 },
                 \"timestamp\": \"${{ github.event.release.published_at }}\"
               }
