@@ -14,8 +14,8 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
           -d "{
-            \"username\": \"บอทอัปเดต Until Then\", 
-            \"avatar_url\": \"ใส่ลิงก์รูปโปรไฟล์บอทของคุณตรงนี้.png\",
+            \"username\": \"github update\", 
+            \"avatar_url\": \"https://cdn.discordapp.com/attachments/1521578053183209532/1521578134258974750/82f39c795967f47f4b4244da53f66970.jpg?ex=6a455790&is=6a440610&hm=ce6c5d9fec6dcba588577e53f67f3f92c2585310d4791ef233c3140a63d3b355\",
             \"embeds\": [
               {
                 \"title\": \"🎉 อัปเดตใหม่มาแล้ว: ${{ github.event.release.name }}\",
