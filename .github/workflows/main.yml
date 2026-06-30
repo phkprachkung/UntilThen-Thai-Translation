@@ -1,0 +1,47 @@
+name: Discord Advanced Release Notification
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Advanced Embed Message to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          # เตรียมข้อมูลสเปซตัวอักษรเพื่อไม่ให้โค้ดพัง
+          RELEASE_BODY=$(echo "${{ github.event.release.body }}" | sed 's/"/\\"/g' | awk '{printf "%s\\n", $0}')
+          
+          curl -H "Content-Type: application/json" \
+          -d "{
+            \"username\": \"GitHub Release Bot\",
+            \"avatar_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\",
+            \"embeds\": [
+              {
+                \"title\": \"🚀 ออกเวอร์ชันใหม่แล้ว: ${{ github.event.release.name }}\",
+                \"url\": \"${{ github.event.release.html_url }}\",
+                \"description\": \"โปรเจกต์ได้รับการอัปเดตเรียบร้อยแล้ว! สามารถดูรายละเอียดและดาวน์โหลดได้จากลิงก์ด้านบน\",
+                \"color\": 3066993,
+                \"fields\": [
+                  {
+                    \"name\": \"📦 เวอร์ชั่น (Tag)\",
+                    \"value\": \"`${{ github.event.release.tag_name }}`\",
+                    \"inline\": true
+                  },
+                  {
+                    \"name\": \"👤 ผู้ปล่อยอัปเดต\",
+                    \"value\": \"[${{ github.event.release.author.login }}](${{ github.event.release.author.html_url }})\",
+                    \"inline\": true
+                  }
+                ],
+                \"footer\": {
+                  \"text\": \"GitHub Actions Automation\",
+                  \"icon_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\"
+                }
+              }
+            ]
+          }" \
+          $DISCORD_WEBHOOK
