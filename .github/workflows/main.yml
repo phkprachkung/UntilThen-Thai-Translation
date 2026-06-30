@@ -18,7 +18,7 @@ jobs:
             \"avatar_url\": \"https://cdn.discordapp.com/attachments/1521578053183209532/1521578134258974750/82f39c795967f47f4b4244da53f66970.jpg?ex=6a455790&is=6a440610&hm=ce6c5d9fec6dcba588577e53f67f3f92c2585310d4791ef233c3140a63d3b355\",
             \"embeds\": [
               {
-                \"title\": \"🎉 อัปเดตใหม่มาแล้ว: ${{ github.event.release.name }}\",
+                \"title\": \"🔗 อัปเดตใหม่มาแล้ว ➡️ : ${{ github.event.release.name }}\",
                 \"url\": \"${{ github.event.release.html_url }}\",
                 \"description\": \"✨ **มีอะไรใหม่ในเวอร์ชันนี้?**\\nเข้าไปดูรายละเอียดการอัปเดตและดาวน์โหลดไฟล์ได้ที่ลิงก์ด้านบนเลยครับ!\\n\\n💡 *ขอบคุณที่ติดตามโปรเจกต์ Until Then ภาษาไทย*\",
                 \"color\": 5814783,
@@ -36,11 +36,6 @@ jobs:
                     \"value\": \"[${{ github.event.release.author.login }}](${{ github.event.release.author.html_url }})\",
                     \"inline\": true
                   },
-                  {
-                    \"name\": \"⬇️ ดาวน์โหลด Source Code\",
-                    \"value\": \"[ดาวน์โหลดไฟล์ .zip](${{ github.event.repository.html_url }}/archive/refs/tags/${{ github.event.release.tag_name }}.zip)\",
-                    \"inline\": false
-                  }
                 ],
                 \"footer\": {
                   \"text\": \"Until Then - Thai Mod\",
