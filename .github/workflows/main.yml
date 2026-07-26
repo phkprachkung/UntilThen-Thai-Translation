@@ -8,36 +8,76 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Send Advanced Embed Message to Discord
+      - name: Send Professional Release Notification to Discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          RELEASE_NAME: ${{ github.event.release.name }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+          RELEASE_AUTHOR: ${{ github.event.release.author.login }}
+          RELEASE_AUTHOR_URL: ${{ github.event.release.author.html_url }}
+          RELEASE_PUBLISHED_AT: ${{ github.event.release.published_at }}
         run: |
-          curl -H "Content-Type: application/json" \
-          -d "{
-            \"username\": \"github update\", 
-            \"avatar_url\": \"https://cdn.discordapp.com/attachments/1521578053183209532/1521578134258974750/82f39c795967f47f4b4244da53f66970.jpg?ex=6a455790&is=6a440610&hm=ce6c5d9fec6dcba588577e53f67f3f92c2585310d4791ef233c3140a63d3b355\",
-            \"embeds\": [
-              {
-                \"title\": \"🎉 อัปเดตใหม่มาแล้ว: ${{ github.event.release.name }}\",
-                \"url\": \"${{ github.event.release.html_url }}\",
-                \"description\": \"# 📦 เวอร์ชั่น: ${{ github.event.release.tag_name }}\\n\\n✨ **มีอะไรใหม่ในเวอร์ชันนี้?**\\n\\n➡️ **[>> คลิกที่นี่เพื่อไปหน้าดูรายละเอียดบน GitHub <<](${{ github.event.release.html_url }})**\\n\\n💡 *ขอบคุณที่ติดตามโปรเจกต์ Until Then ภาษาไทย*\",
-                \"color\": 5814783,
-                \"thumbnail\": {
-                  \"url\": \"https://cdn.discordapp.com/attachments/1521578053183209532/1521578548471664983/Gemini_Generated_Image_lslubnlslubnlslu_1.png?ex=6a4557f3&is=6a440673&hm=4aecd69fee9111942cbb76c743f3e2a10976482daed72503557a1c3dd6e9167b\"
-                },
-                \"fields\": [
+          python3 -c '
+          import os
+          import json
+          import urllib.request
+
+          webhook_url = os.environ.get("DISCORD_WEBHOOK")
+          if not webhook_url:
+              print("No DISCORD_WEBHOOK secret configured.")
+              exit(0)
+
+          release_name = os.environ.get("RELEASE_NAME", "")
+          release_tag = os.environ.get("RELEASE_TAG", "")
+          release_body = os.environ.get("RELEASE_BODY", "").strip()
+          release_url = os.environ.get("RELEASE_URL", "")
+          author_login = os.environ.get("RELEASE_AUTHOR", "")
+          author_url = os.environ.get("RELEASE_AUTHOR_URL", "")
+          published_at = os.environ.get("RELEASE_PUBLISHED_AT", "")
+
+          if len(release_body) > 1800:
+              release_body = release_body[:1790] + "\n\n*(อ่านรายละเอียดทั้งหมดเพิ่มเติมได้ที่ GitHub)*"
+
+          if not release_body:
+              release_body = "ไม่มีรายละเอียดบันทึกการอัปเดตสำหรับเวอร์ชันนี้"
+
+          description_text = f"**เวอร์ชัน:** {release_tag}\n\n**รายละเอียดการอัปเดต:**\n{release_body}\n\n[ดูรายละเอียดเต็มบน GitHub]({release_url})"
+
+          payload = {
+              "username": "GitHub Release Notification",
+              "avatar_url": "https://cdn.discordapp.com/attachments/1521578053183209532/1521578134258974750/82f39c795967f47f4b4244da53f66970.jpg?ex=6a455790&is=6a440610&hm=ce6c5d9fec6dcba588577e53f67f3f92c2585310d4791ef233c3140a63d3b355",
+              "embeds": [
                   {
-                    \"name\": \"👤 ผู้ปล่อยอัปเดต\",
-                    \"value\": \"[${{ github.event.release.author.login }}](${{ github.event.release.author.html_url }})\",
-                    \"inline\": true
+                      "title": f"อัปเดตใหม่: {release_name}",
+                      "url": release_url,
+                      "description": description_text,
+                      "color": 3447003,
+                      "thumbnail": {
+                          "url": "https://cdn.discordapp.com/attachments/1521578053183209532/1521578548471664983/Gemini_Generated_Image_lslubnlslubnlslu_1.png?ex=6a4557f3&is=6a440673&hm=4aecd69fee9111942cbb76c743f3e2a10976482daed72503557a1c3dd6e9167b"
+                      },
+                      "fields": [
+                          {
+                              "name": "ผู้ปล่อยอัปเดต",
+                              "value": f"[{author_login}]({author_url})",
+                              "inline": True
+                          }
+                      ],
+                      "footer": {
+                          "text": "Until Then - Thai Mod",
+                          "icon_url": "https://cdn.discordapp.com/attachments/1521578053183209532/1521578548471664983/Gemini_Generated_Image_lslubnlslubnlslu_1.png?ex=6a4557f3&is=6a440673&hm=4aecd69fee9111942cbb76c743f3e2a10976482daed72503557a1c3dd6e9167b"
+                      },
+                      "timestamp": published_at
                   }
-                ],
-                \"footer\": {
-                  \"text\": \"Until Then - Thai Mod\",
-                  \"icon_url\": \"https://cdn.discordapp.com/attachments/1521578053183209532/1521578548471664983/Gemini_Generated_Image_lslubnlslubnlslu_1.png?ex=6a4557f3&is=6a440673&hm=4aecd69fee9111942cbb76c743f3e2a10976482daed72503557a1c3dd6e9167b\"
-                },
-                \"timestamp\": \"${{ github.event.release.published_at }}\"
-              }
-            ]
-          }" \
-          $DISCORD_WEBHOOK
+              ]
+          }
+
+          req = urllib.request.Request(webhook_url, data=json.dumps(payload).encode("utf-8"), headers={
+              "Content-Type": "application/json",
+              "User-Agent": "DiscordWebhookScript"
+          })
+
+          with urllib.request.urlopen(req) as resp:
+              print("Discord notification response code:", resp.status)
+          '
