@@ -5,6 +5,7 @@
 ![Version](https://img.shields.io/badge/Version-1.5.1-blue.svg)
 ![Status](https://img.shields.io/badge/Status-เนื้อเรื่อง_97%25_|_DLC_50%25_|_UI_90%25-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-PC_(Steam)-lightgrey.svg)
+[![Total Downloads](https://img.shields.io/github/downloads/phkprachkung/UntilThen-Thai-Translation/total?color=brightgreen&label=Downloads)](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
 
 โปรเจกต์แปลภาษาไทยอย่างไม่เป็นทางการสำหรับเกม **Until Then** เกมแนว Narrative Adventure ที่เต็มไปด้วยอารมณ์และเรื่องราวที่น่าประทับใจ
 
@@ -130,6 +131,7 @@
 💬 **เข้าร่วมชุมชนของเรา:** แวะเข้ามาพูดคุย สอบถามปัญหาการติดตั้ง หรือติดตามการอัปเดตม็อดแปลไทยเพิ่มเติมได้ที่ Discord ของเรา
 **[👉 เข้าร่วม Discord ที่นี่ 👈](https://discord.gg/hDjNCPaCmu)**
 
+
 ---
 
 > [!IMPORTANT]
@@ -148,4 +150,3 @@
 > — **อนุญาตให้นำไปเผยแพร่ต่อได้** โดยต้องให้เครดิตทีมผู้แปล (DongDib Studio)  
 > — **ห้ามนำไปใช้ในเชิงพาณิชย์เด็ดขาด** (ห้ามนำม็อดนี้ไปแสวงหาผลกำไรทุกกรณี)
 
-![Downloads](https://img.shields.io/github/downloads/{phkprachkung}/{UntilThen-Thai-Translation}/total)
