@@ -5,6 +5,7 @@
 ![Version](https://img.shields.io/badge/Version-1.5.1-blue.svg)
 ![Status](https://img.shields.io/badge/Status-เนื้อเรื่อง_97%25_|_DLC_50%25_|_UI_90%25-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-PC_(Steam)-lightgrey.svg)
+![Downloads](https://img.shields.io/github/downloads/{เจ้าของ_repo}/{ชื่อ_repo}/total)
 
 โปรเจกต์แปลภาษาไทยอย่างไม่เป็นทางการสำหรับเกม **Until Then** เกมแนว Narrative Adventure ที่เต็มไปด้วยอารมณ์และเรื่องราวที่น่าประทับใจ
 
