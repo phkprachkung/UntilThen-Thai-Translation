@@ -1,152 +1,141 @@
 <div align="center">
-  
-# 🇹🇭 Until Then - Thai Translation (ม็อดแปลภาษาไทย)
 
-![Version](https://img.shields.io/badge/Version-1.5.1-blue.svg)
-![Status](https://img.shields.io/badge/Status-เนื้อเรื่อง_97%25_|_DLC_50%25_|_UI_90%25-brightgreen.svg)
-![Platform](https://img.shields.io/badge/Platform-PC_(Steam)-lightgrey.svg)
-[![Total Downloads](https://img.shields.io/github/downloads/phkprachkung/UntilThen-Thai-Translation/total?color=brightgreen&label=Downloads)](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
+# Until Then - ม็อดภาษาไทย
 
-โปรเจกต์แปลภาษาไทยอย่างไม่เป็นทางการสำหรับเกม **Until Then** เกมแนว Narrative Adventure ที่เต็มไปด้วยอารมณ์และเรื่องราวที่น่าประทับใจ
+[![Version](https://img.shields.io/badge/version-v1.5.1-blue.svg?style=flat-square)](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
+[![Progress](https://img.shields.io/badge/main%20story-100%25-brightgreen.svg?style=flat-square)](https://github.com/phkprachkung/UntilThen-Thai-Translation)
+[![DLC Progress](https://img.shields.io/badge/DLC-50%25-orange.svg?style=flat-square)](https://github.com/phkprachkung/UntilThen-Thai-Translation)
+[![Platform](https://img.shields.io/badge/platform-Steam%20(PC)-lightgrey.svg?style=flat-square)](https://store.steampowered.com/app/1574820/Until_Then/)
+[![Downloads](https://img.shields.io/github/downloads/phkprachkung/UntilThen-Thai-Translation/total?color=blueviolet&style=flat-square)](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
 
-[👉 ดาวน์โหลดโปรแกรมติดตั้งม็อดล่าสุด ที่หน้า Releases 👈](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
+โปรเจกต์แปลภาษาไทยสำหรับเกม Until Then บน PC (Steam)
 
-<br>
-
-**[เข้าร่วม Discord ของเรา เพื่อพูดคุยและติดตามการอัปเดต](https://discord.gg/hDjNCPaCmu)**
+[ดาวน์โหลดตัวติดตั้ง (Releases)](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases) • [Discord พูดคุย / แจ้งปัญหา](https://discord.gg/hDjNCPaCmu)
 
 </div>
 
 ---
 
-## สถานะการแปล
-* **เนื้อเรื่องหลัก (Main Story):** 100% (แปลเนื้อเรื่องหลักครบจบเกมแล้ว! *หมายเหตุ: จะมีการแปลเกลาสำนวนเนื้อเรื่องหลักใหม่อีกครั้ง หลังจากแปลเนื้อเรื่อง DLC เสร็จสมบูรณ์ 100%*)
-* **เนื้อเรื่อง DLC:** 50% (แปล "วันคืนถิ่น" เสร็จแล้ว เหลือตอน "จุดประกาย")
-* **เมนูและอินเตอร์เฟส (UI):** 95% (แปลข้อความส่วนที่ลึกที่สุดของโค้ด เช่น แอปพยากรณ์อากาศ, หน้าจอซื้อตั๋วรถไฟ, คำสั่งโซเชียลมีเดีย)
-* **ฟอนต์ภาษาไทย (Font):** 100% (ปลดล็อกระบบเกมให้รองรับฟอนต์ไทยสมบูรณ์แบบ ใช้ฟอนต์ NotoSansThai แก้ปัญหาสระลอยและฟอนต์ไม่มีหัวเรียบร้อย)
+### สถานะการแปล
+* **เนื้อเรื่องหลัก:** 100% (จบเกมแล้ว จะกลับมาเกลาสำนวนอีกรอบหลังแปล DLC ครบ)
+* **เนื้อเรื่อง DLC:** 50% (แปลตอน "วันคืนถิ่น" เสร็จแล้ว, กำลังแปลตอน "จุดประกาย")
+* **เมนูและ UI:** 95% (เมนูในเกม, แอปมือถือ, ข้อความระบบ)
+* **ฟอนต์ภาษาไทย:** 100% (ใช้ Noto Sans Thai สระไม่ลอย)
 
 ---
 
-## อัปเดตล่าสุด (v1.5.1 — Big Update)
-* **แปล DLC ตอน "วันคืนถิ่น" เสร็จสมบูรณ์:** รวมความคืบหน้าแปล DLC ถึง 50% แล้ว เหลือตอน "จุดประกาย" อีกตอนสุดท้าย
-* **แก้บั๊กเกมเด้งหลุดเมื่อเข้าหน้าตั้งค่า:** ลบไฟล์ซ้ำซ้อนออกจากม็อด ทำให้รองรับเกมทุกเวอร์ชันได้สมบูรณ์แบบ
-* **ปรับปรุง UI หน้าเปิดเกม:** ขยายขนาดหน้าคำเตือนให้อ่านง่ายขึ้น และเพิ่มไอคอน GitHub + ลิงก์คลิกได้ในหน้าเครดิตผู้แปล
-* **แก้บั๊ก Lite Mode เล่นเพลง BGM:** เวอร์ชัน Lite จะไม่โหลดหรือเล่นเพลงพื้นหลังอีกต่อไป
+### มีอะไรใหม่ใน v1.5.1
+* แปลเนื้อเรื่อง DLC ตอน "วันคืนถิ่น" เสร็จสมบูรณ์
+* แก้บั๊กเกมเด้งตอนกดเข้าหน้าตั้งค่า (Settings)
+* ขยายขนาดหน้าต่างคำเตือนตอนเริ่มเกมให้อ่านง่ายขึ้น
+* ตัดเพลง BGM ออกจากตัวติดตั้งแบบ Lite เพื่อลดขนาดไฟล์
 
-## อัปเดตก่อนหน้า
+> [!NOTE]
+> **ข้อควรรู้เกี่ยวกับเนื้อเรื่อง DLC:**  
+> ในเนื้อเรื่อง DLC บทที่ 2 ระบบเกมต้นฉบับไม่รองรับการคลิกเมาส์ในหน้าจอมือถือและเมนู ต้องใช้ปุ่มลูกศรบนคีย์บอร์ดหรือจอยเกมในการเลือก
+
 <details>
-<summary><b>คลิกเพื่อดูบันทึกการอัปเดตเวอร์ชันเก่า (v1.4.1 - v1.4.3)</b></summary>
+<summary>ประวัติการอัปเดตเวอร์ชันเก่า (v1.4.1 - v1.4.3)</summary>
 
-### v1.4.3
-* **ปรับโฉม Lite Version ใหม่ทั้งหมด (Ultra Lite):** เปลี่ยนไปใช้หน้าต่าง Windows Forms แบบคลาสสิก ทำงานได้ทันทีโดยไม่กินทรัพยากรเครื่อง
-* **ระบบติดตั้ง .NET 9.0 อัตโนมัติ:** ดาวน์โหลดและติดตั้ง .NET อัตโนมัติหากไม่มีในเครื่อง
+<br>
 
-### v1.4.2
-* **กวาดล้างบั๊กลูปแรก (บทที่ 1 ถึง 4):** แก้ไขบั๊กจอดำและเกมแครชจากตัวอักษร NBSP ในฉากเปียโน
-* **แก้ไขฉากร้านขายเสื้อ (บทที่ 4):** แก้บั๊กออกจากร้านไม่ได้
-* **แก้ไขฉากออกจากห้องนอนมาร์ค:** แก้บั๊กเกมเด้งหลุดในลูปที่ 1 บทที่ 5
+**v1.4.3**
+* ปรับหน้าตาตัวติดตั้งแบบ Lite ให้ทำงานเร็วและเสถียรขึ้น
+* ระบบติดตั้ง .NET 9.0 Runtime อัตโนมัติหากเครื่องไม่มี
 
-### v1.4.1
-* **อัปเดตระบบรองรับ DLC:** แก้ปัญหาเกมค้างเวลาเปิดโปรไฟล์เพื่อนในแชท
-* **คลีนอัปไฟล์ขยะ:** ลบไฟล์เกมหลักที่ไม่ได้ดัดแปลงออก ลดขนาดม็อด
+**v1.4.2**
+* แก้บั๊กจอดำ/เกมค้างจากช่องว่าง NBSP ในบทที่ 1 ถึง 4 (ฉากเปียโน)
+* แก้บั๊กติดอยู่ในร้านขายเสื้อผ้า (บทที่ 4)
+* แก้บั๊กเกมเด้งตอนออกจากห้องนอนของมาร์ค (บทที่ 5)
+
+**v1.4.1**
+* รองรับระบบแชทและโปรไฟล์เพื่อนใน DLC
+* คลีนไฟล์เกมที่ไม่จำเป็นออกจากม็อด
 
 </details>
 
 ---
 
-## ภาพตัวอย่างในเกม (Screenshots)
+### ภาพตัวอย่างในเกม
 
-<p align="center">
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/77f1b81b-eb50-4599-b636-2f43934bfe45" />
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/6beb2f36-1725-4d62-a390-b6041f291d94" />
-
-</p>
-<p align="center">
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/befbe221-a93c-4bca-942e-cd4a1a3f159e" />
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/e7208c62-1a7e-4eb5-a935-9b427075d815" />
-</p>
-<p align="center">
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/b803c3ee-da99-41c4-9755-6468d9576b66" />
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/9580cedf-94de-4ce4-b06e-2c0b55a6fb18" />
-</p>
-<p align="center">
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/241f929c-f285-4631-beb9-de87787db287" />
-  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/c69d4b1c-41c5-43cd-869b-4ba9df457c96" />
-</p>
+| | |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/77f1b81b-eb50-4599-b636-2f43934bfe45" /> | <img src="https://github.com/user-attachments/assets/6beb2f36-1725-4d62-a390-b6041f291d94" /> |
+| <img src="https://github.com/user-attachments/assets/befbe221-a93c-4bca-942e-cd4a1a3f159e" /> | <img src="https://github.com/user-attachments/assets/e7208c62-1a7e-4eb5-a935-9b427075d815" /> |
+| <img src="https://github.com/user-attachments/assets/b803c3ee-da99-41c4-9755-6468d9576b66" /> | <img src="https://github.com/user-attachments/assets/9580cedf-94de-4ce4-b06e-2c0b55a6fb18" /> |
+| <img src="https://github.com/user-attachments/assets/241f929c-f285-4631-beb9-de87787db287" /> | <img src="https://github.com/user-attachments/assets/c69d4b1c-41c5-43cd-869b-4ba9df457c96" /> |
 
 ---
 
-## วิธีการติดตั้งม็อดภาษาไทย (อัปเดตใหม่ ง่ายขึ้นกว่าเดิม!)
+### วิธีติดตั้งม็อด
 
-เพื่อความสะดวกและรวดเร็ว เราได้สร้างโปรแกรมติดตั้งม็อดแบบอัตโนมัติ (Installer) ให้คุณแล้ว!
+<div align="center">
+  <img width="719" src="https://github.com/user-attachments/assets/ac5d4092-469e-47a2-9c80-ba39b3166de5" />
+</div>
 
-<img width="715" height="483" alt="Screenshot 2026-07-21 015938" src="https://github.com/user-attachments/assets/cc56c3ae-d607-417b-8b39-eadfddcc757f" />
+<br>
 
-**ขั้นตอนการติดตั้ง:**
-1. ดาวน์โหลดไฟล์ **`UntilThen_ThaiMod.exe`** จากหน้า [Releases](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
-2. ดับเบิ้ลคลิกเพื่อรันโปรแกรมติดตั้ง และทำตามขั้นตอนบนหน้าจอ
-3. เมื่อเปิดโปรแกรมติดตั้งม็อด โปรแกรมจะค้นหาโฟลเดอร์เกมใน Steam ให้โดยอัตโนมัติ (หรือกดปุ่ม BROWSE เพื่อเลือกหาไฟล์เกมเองในกรณีที่ใช้แพลตฟอร์มอื่น)
-4. กดปุ่ม **INSTALL MOD** และรอสักครู่จนกว่าระบบจะดำเนินการเสร็จสิ้น
-5. เสร็จเรียบร้อย! สามารถเข้าเกมและสนุกกับเนื้อเรื่องภาษาไทยได้ทันทีครับ
+1. ดาวน์โหลดไฟล์ `UntilThen_ThaiMod.exe` จากหน้า [Releases](https://github.com/phkprachkung/UntilThen-Thai-Translation/releases)
+2. ดับเบิ้ลคลิกเปิดโปรแกรมติดตั้ง (โปรแกรมจะค้นหาโฟลเดอร์เกมใน Steam ให้อัตโนมัติ หรือกดปุ่ม **BROWSE** หากติดตั้งไว้ที่อื่น)
+3. กดปุ่ม **INSTALL MOD** รอระบบติดตั้งสักครู่
+4. เข้าเล่นเกมภาษาไทยผ่าน Steam ได้ทันที
 
-*(หากต้องการถอนการติดตั้งม็อดและคืนค่าเป็นเกมดั้งเดิม สามารถเปิดโปรแกรมนี้และกดปุ่ม **UNINSTALL MOD** หรือจะใช้ระบบถอนการติดตั้งโปรแกรมผ่าน Control Panel ใน Windows ตามปกติก็ได้เช่นกันครับสำหรับคนที่ลงแบบตัว Setup)*
+*(หากต้องการเอาตัวม็อดออกและคืนค่าเกมเดิม ให้เปิดโปรแกรมนี้แล้วกด **UNINSTALL MOD**)*
 
 <details>
-<summary><b>คลิกที่นี่ หากต้องการติดตั้งแบบ Manual (วิธีเก่าโดยใช้โปรแกรมแพ็คไฟล์ด้วยตัวเอง)</b></summary>
+<summary>วิธีติดตั้งแบบ Manual (แตกไฟล์และแพ็คด้วยตัวเอง)</summary>
 
-ในโฟลเดอร์นี้คือไฟล์ Source ของม็อดแปลภาษาไทย ที่คุณสามารถนำไปแพ็คอัปเดตไฟล์ `.pck` ดั้งเดิมของตัวเกมได้เลย
+<br>
 
-**สิ่งที่ต้องเตรียม:**
-1. โปรแกรม **Godot PCK Explorer**
-2. ไฟล์ Source Code โฟลเดอร์ `game` จาก Repository นี้
+**สิ่งที่ต้องใช้:**
+* โปรแกรม Godot PCK Explorer
+* โฟลเดอร์ `game` จาก Repository นี้
 
-**ขั้นตอนการติดตั้งและแพ็คไฟล์:**
-1. เปิดโปรแกรม **Godot PCK Explorer** ไปที่เมนู `File > Open File` เลือกไฟล์ `UntilThen.pck` ของตัวเกมในโฟลเดอร์ Steam
-2. เลือกเมนู `Extract > Extract All` เพื่อแตกไฟล์ทั้งหมดของเกมออกมา (แนะนำให้สร้างโฟลเดอร์ `game` รอไว้แล้วแตกไฟล์ลงไป)
-3. นำโฟลเดอร์ `game` จาก Source Code ของเรา **ไปลากวางทับ** โฟลเดอร์เกมที่คุณเพิ่งแตกไฟล์มา (กดยอมรับ Replace All)
-4. ในโปรแกรม Godot PCK Explorer ไปที่เมนู `File > Pack or Embed Folder`
-5. ตั้งค่าการแพ็กไฟล์ดังนี้:
-   - **Path to the folder to pack:** เลือกโฟลเดอร์ `game` ที่เพิ่งวางม็อดทับไป
-   - ติ๊กถูกที่ **Enabled patching** แล้วเลือกไฟล์ `UntilThen.pck` ต้นฉบับ
-   - กำหนดเวอร์ชันเป็น **Godot 4.1.4**
-6. กด **Pack** ระบบจะถามหาที่เซฟ ให้ตั้งชื่อเป็น `UntilThen.pck` แล้วบันทึกทับไฟล์เกมตัวเก่าใน Steam ไปเลย 
-*(แนะนำให้สำรองไฟล์ `.pck` ต้นฉบับของเกมเก็บไว้ก่อน)*
-7. คุณสามารถลบโฟลเดอร์ที่แตกออกมาทิ้งไปได้เลย เข้าเกมและสนุกกับเนื้อเรื่องภาษาไทยได้ทันที!
+**ขั้นตอน:**
+1. เปิดโปรแกรม Godot PCK Explorer เลือกเมนู `File > Open File` แล้วเปิดไฟล์ `UntilThen.pck` ในโฟลเดอร์เกม
+2. เลือก `Extract > Extract All` แตกไฟล์เกมออกมาทั้งหมด
+3. นำโฟลเดอร์ `game` จากม็อดนี้ไปวางทับโฟลเดอร์เกมที่เพิ่งแตกออกมา (กด Replace All)
+4. ไปที่เมนู `File > Pack or Embed Folder`
+   * เลือกโฟลเดอร์เกมที่วางม็อดทับแล้ว
+   * ติ๊ก **Enabled patching** และเลือกไฟล์ `UntilThen.pck` ดั้งเดิม
+   * ตั้งค่าเวอร์ชันเป็น **Godot 4.1.4**
+5. กด **Pack** แล้วเซฟทับไฟล์ `UntilThen.pck` ในโฟลเดอร์เกม
+6. ลบโฟลเดอร์ที่แตกออกมาทิ้ง แล้วเข้าเล่นเกมตามปกติ
+
 </details>
 
 ---
 
-## ช่องทางการสนับสนุน (Support/Donate)
-หากคุณชื่นชอบผลงานแปลนี้ และอยากสนับสนุนยาแก้ปวดหลังหรือค่าน้ำชาให้กับทีมงานแปล (**DongDib Studio**) สามารถสนับสนุนได้ตามช่องทางนี้ครับ:
+### สนับสนุนทีมงาน
 
-<img width="250" height="250" alt="Donate QR" src="https://github.com/user-attachments/assets/654a21a5-876f-486a-8308-3768d5b01b40" />
+หากชอบผลงานและอยากช่วยค่ายาแก้ปวดหลังหรือค่าน้ำชาทีมงานแปล (**DongDib Studio**) สามารถสแกนสนับสนุนได้ที่นี่ครับ:
 
-หรือเพียงแค่ช่วยกด **Star** ที่มุมขวาบนของโปรเจกต์นี้ ก็เป็นกำลังใจให้ทีมผู้แปลมากๆ แล้วครับ ขอบคุณครับ
+<div align="center">
+  <img width="220" src="https://github.com/user-attachments/assets/654a21a5-876f-486a-8308-3768d5b01b40" />
+  <br><br>
+  หรือช่วยกด <b>Star</b> ที่มุมขวาบนของโปรเจกต์นี้ เพื่อเป็นกำลังใจให้ทีมงานได้เช่นกันครับ
+</div>
 
 ---
 
-## การแจ้งปัญหาและพูดคุย (Issues & Discord)
-หากพบคำผิด บั๊กแปลไม่แสดงผล หรือต้องการเสนอแนะการแก้ไขคำ สามารถแจ้งได้ที่หน้า **[Issues](https://github.com/phkprachkung/UntilThen-Thai-Translation/issues)** ของ GitHub นี้ได้เลยครับ
+### แจ้งปัญหา / ช่องทางติดต่อ
 
-💬 **เข้าร่วมชุมชนของเรา:** แวะเข้ามาพูดคุย สอบถามปัญหาการติดตั้ง หรือติดตามการอัปเดตม็อดแปลไทยเพิ่มเติมได้ที่ Discord ของเรา
-**[👉 เข้าร่วม Discord ที่นี่ 👈](https://discord.gg/hDjNCPaCmu)**
-
+* **แจ้งคำผิดหรือบั๊ก:** [GitHub Issues](https://github.com/phkprachkung/UntilThen-Thai-Translation/issues)
+* **Discord ชุมชนผู้เล่น:** [เข้าร่วม Until Then Thai Mod Community](https://discord.gg/hDjNCPaCmu)
 
 ---
 
 > [!IMPORTANT]
 > **ข้อจำกัดความรับผิดชอบ (Disclaimer)**
 >
-> ม็อดแปลภาษาไทยนี้เป็นโปรเจกต์แฟนคลับที่จัดทำขึ้นอย่างไม่เป็นทางการ ไม่มีส่วนเกี่ยวข้องหรือได้รับการรับรองจาก Polychroma Games และ Maximum Entertainment แต่อย่างใด  
-> ลิขสิทธิ์เนื้อหา กราฟิก เพลง และทุกองค์ประกอบของเกม Until Then เป็นทรัพย์สินของเจ้าของลิขสิทธิ์ที่ถูกต้อง  
-> ม็อดนี้จัดทำขึ้นเพื่อวัตถุประสงค์ทางการศึกษาและความบันเทิงแก่ผู้เล่นชาวไทยเท่านั้น ไม่มีการแสวงหาผลกำไรใดๆ
+> ม็อดภาษาไทยนี้เป็นโปรเจกต์ของแฟนเกม จัดทำขึ้นอย่างไม่เป็นทางการ ไม่มีส่วนเกี่ยวข้องกับ Polychroma Games หรือ Maximum Entertainment  
+> ลิขสิทธิ์เนื้อหา กราฟิก และดนตรีทั้งหมดเป็นของเจ้าของลิขสิทธิ์  
+> จัดทำขึ้นเพื่อความบันเทิงของผู้เล่นชาวไทยเท่านั้น ไม่มีการแสวงหาผลกำไรใดๆ ทั้งสิ้น
 
 > [!NOTE]
 > **สิทธิ์ในงานแปล (Translation Rights)**
 >
-> ผลงานแปลภาษาไทยทั้งหมดในโปรเจกต์นี้จัดทำขึ้นโดยความตั้งใจของทีม **DongDib Studio** ในฐานะแฟนเกม 
-> ทางทีมผู้แปลขอเผยแพร่ "สำนวนการแปล" ในโปรเจกต์นี้ ภายใต้สัญญาอนุญาต [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)  
->
-> — **อนุญาตให้นำไปเผยแพร่ต่อได้** โดยต้องให้เครดิตทีมผู้แปล (DongDib Studio)  
-> — **ห้ามนำไปใช้ในเชิงพาณิชย์เด็ดขาด** (ห้ามนำม็อดนี้ไปแสวงหาผลกำไรทุกกรณี)
-
+> งานแปลภาษาไทยทั้งหมดในโปรเจกต์นี้จัดทำโดยทีม **DongDib Studio**  
+> เผยแพร่ภายใต้สัญญาอนุญาต [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)  
+> - อนุญาตให้นำไปเผยแพร่ต่อได้ โดยต้องให้เครดิตทีมงาน (DongDib Studio)  
+> - ไม่อนุญาตให้นำไปใช้ในเชิงพาณิชย์ทุกกรณี
